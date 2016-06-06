@@ -2,7 +2,7 @@ package examenfinalparte1;
 
 import java.io.IOException;
 
-public class Prin {
+public class Primary {
 
     public static void main(String[] args) throws IOException {
         CallBuilder2parameters();
