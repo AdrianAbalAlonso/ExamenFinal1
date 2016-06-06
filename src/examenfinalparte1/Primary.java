@@ -17,7 +17,7 @@ public class Primary {
         int nn = mn.ValueToAccesBuilders;
         System.out.println("Es: " + nn);
     }
-//introduced into method CallBuilder1parameter the builder output a paremeter you enter
+//introduced into method CallBuilder1parameter the builder sum the parameter you enter with a same number 
     private static void CallBuilder1paremeter() {
         Secundary nm = new Secundary(10);
         int m = nm.ValueToAccesBuilders;

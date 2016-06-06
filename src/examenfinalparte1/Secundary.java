@@ -12,7 +12,7 @@ public class Secundary {
         ValueToAccesBuilders = sum(value1, value2);
     }
 /**
- * builder with a once parameter,its illogical call the sum method in this builder , because you only enter once parameter.
+ * builder with a once parameter,and sum 2 times this parameter
  * @param value1 
  */
     public Secundary(int value1) {
