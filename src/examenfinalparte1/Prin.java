@@ -5,13 +5,15 @@ import java.io.IOException;
 public class Prin {
 
     public static void main(String[] args) throws IOException {
-        Principal obj = new Principal(10, 20);
+        Secundary obj = new Secundary(10, 20);
         int n = obj.i;
         System.out.println("Es: " + n);
-        Principal nm = new Principal(10);
+        
+        Secundary nm = new Secundary(10);
         int m = nm.i;
         System.out.println("Es: " + m);
-        Principal mn = new Principal();
+        
+        Secundary mn = new Secundary();
         int nn = mn.i;
         System.out.println("Es: " + nn);
     }
